@@ -6,7 +6,7 @@
 		<version>0.9.6</version>
 	</parent>
 	<artifactId>maven-base</artifactId>
-	<version>0.9.7</version>
+	<version>0.9.8</version>
 	<packaging>pom</packaging>
 	<name>hhoss base pom</name>
 	<description>basic parent pom of HHOSS</description>
@@ -32,6 +32,11 @@
          -->
         <dependency>
 		  <artifactId>hhoss-util</artifactId>
+		  <groupId>${project.groupId}</groupId>
+		  <version>${project.version}</version>
+		</dependency>
+        <dependency>
+		  <artifactId>hhoss-code</artifactId>
 		  <groupId>${project.groupId}</groupId>
 		  <version>${project.version}</version>
 		</dependency>
